@@ -1,0 +1,12 @@
+environment: development
+name: ffc-sfd-ingress
+namespace: ffc-sfd
+workstream: ffc-sfd
+
+labels: {}
+
+ingress:
+  class: nginx
+  endpoint: ffc-sfd
+  server: example.com
+  defaultPath: landing-page
