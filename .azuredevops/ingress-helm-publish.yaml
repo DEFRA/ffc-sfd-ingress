@@ -29,7 +29,6 @@ extends:
     teamName: "fcp-sfd"
     serviceName: "ffc-sfd-ingress"
     deployFromFeature: ${{ parameters.deployFromFeature }}
-    includePlatformEnvs: true
     appBuildConfig:
       appFrameworkType: "helm"
       projectPath: "helm/ffc-sfd-ingress/Chart.yaml"
