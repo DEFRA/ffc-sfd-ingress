@@ -16,6 +16,6 @@ ingress:
   class: nginx
   endpoint: ffc-sfd
   server: adp.defra.gov.uk
-  type: minion
+  type: master
   path: /
-  defaultPath: landing-page
+  defaultPath: ffc-sfd
