@@ -18,4 +18,4 @@ ingress:
   server: adp.defra.gov.uk
   type: master
   path: /
-  defaultPath: ffc-sfd
+  defaultPath: /landing-page
